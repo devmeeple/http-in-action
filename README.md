@@ -72,6 +72,17 @@ IP 주소는 외우기 어렵고 변경될 수 있다. 이러한 문제를 해�
 
 HTTP는 IP를 사용해서 인터넷 네트워크위에서 동작한다. 자주 사용하는 IP는 장점도 있지만 도 명확한 단점[^1]이 있다. 이를 보완하기 위해 TCP, UDP, PORT, DNS를 사용한다.
 
+# 2. URI와 웹 브라우저 요청 흐름
+
+## URI(Uniform Resource Identifier)
+
+- URL 문법
+
+URI는 통합 자원 식별자 라고한다. URI에 URL과 URN이 포함된다. URL, URN은 자원을 식별하는 방법에 따라 분류된다. 이때 URL은 위치, URN은 이름으로 식별한다. 하지만 URN은 보편적으로
+사용하기엔 어려워서 사용하지 않는다. 따라서 지금은 URI와 URL을 같은 맥락으로 사용한다.
+
+재수강
+
 1. [인터넷네트워크](./1_인터넷_네트워크/README.md)
 2. [URI와 웹 브라우저 요청 흐름](./2_URI와_웹_브라우저_요청_흐름/README.md)
 3. [HTTP 기본](./3_HTTP_기본/README.md)
@@ -81,5 +92,6 @@ HTTP는 IP를 사용해서 인터넷 네트워크위에서 동작한다. 자주 
 **<참고 자료>**
 
 - [김영한 '모든 개발자를 위한 HTTP 웹 기본 지식'](https://inf.run/8ZEU8)
+- [IETF 'RFC 3986'](https://datatracker.ietf.org/doc/html/rfc3986)
 
 [^1]: 비연결성, 비신뢰성, 프로그램 구분
