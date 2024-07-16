@@ -109,6 +109,12 @@ HTTP의 시작은 미약했다. 간단한 HTML(HyperText Markup Language) 전송
 HTTP는 클라이언트 서버 구조를 가진다. 클라이언트는 요청(Request)을 서버는 응답(Response)한다. 간단한 구조지만 신경 쓸 필요가 있다. 과거에는 클라이언트와 서버의 구분이 애매했다.
 하지만 지금은 클라이언트와 서버를 분리해서 독립적인 발전을 실현한다. 클라이언트는 UI/UX에 집중하고, 서버는 비즈니스 로직과 데이터에 집중한다.
 
+## Stateful, Stateless
+
+> 재수강이 필요하다. Stateful vs Stateless 적절한 예시추가, 한계
+
+무상태 프로토콜(Stateless Protocol)은 서버가 클라이언트 상태를 보존하지 않는다. 수평확장(Scale-out)이 유리하지만, 클라이언트가 추가 데이터를 제공해야 한다는 단점이 있다.
+
 **<참고 자료>**
 
 - [김영한 '모든 개발자를 위한 HTTP 웹 기본 지식'](https://inf.run/8ZEU8)
