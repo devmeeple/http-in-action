@@ -212,9 +212,10 @@ POST 외에 GET, PUT, PATCH, DELETE는 멱등하다. 조회, 수정, 삭제는 �
 쿼리 파라미터는 `GET` 메서드로 사용한다. 예를 들어 이미지를 불러오거나, 검색 조건 필터링에 사용한다. 메시지 바디는 `POST`, `PUT`, `PATCH`에 사용한다. 회원가입, 주문 등
 다양하게 사용할 수 있다. 이외에도 HTML `<form>` 태그로 데이터를 전송할 때, HTTP API 데이터 전송[^6]에도 사용한다.
 
-**<참고 자료>**
+## 참고 자료
 
 - [김영한 '모든 개발자를 위한 HTTP 웹 기본 지식'](https://inf.run/8ZEU8)
+- [김정환 '판교 퇴근길 밋업 with 인프런 #08 HTTP'](https://inf.run/R44jf)
 - [IETF 'RFC 3986'](https://datatracker.ietf.org/doc/html/rfc3986)
 - [위키백과 'HTTP'](https://ko.wikipedia.org/wiki/HTTP)
 
